@@ -1,0 +1,29 @@
+//
+@use 'bootstrap';
+body {
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+
+header {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: calc(100vh - 8vh - 6vh);
+}
+
+#site_footer {
+    height: 6vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
