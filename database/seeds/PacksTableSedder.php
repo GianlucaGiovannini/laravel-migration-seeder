@@ -1,5 +1,6 @@
 <?php
-use App\Model\pack;
+
+use App\Model\Pack;
 use Illuminate\Database\Seeder;
 
 class PacksTableSedder extends Seeder

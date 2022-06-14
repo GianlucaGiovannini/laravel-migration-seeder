@@ -2,7 +2,7 @@
 @use 'bootstrap';
 body {
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
 }
 
@@ -11,10 +11,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid rgba(71, 85, 219, 0.438);
 }
 
 main {
     height: calc(100vh - 8vh - 6vh);
+    overflow: auto;
+    .cards {
+        box-shadow: 2px 2px 12px 0 #33337c, -2px -2px 2px 0px #3094b3;
+        .cards_img {
+            text-align: center;
+        }
+        img {
+            height: 280px;
+        }
+    }
 }
 
 #site_footer {
@@ -26,4 +37,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+strong.green {
+    color: greenyellow;
+}
+
+strong.red {
+    color: red;
 }
