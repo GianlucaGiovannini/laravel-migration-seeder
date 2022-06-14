@@ -4,10 +4,12 @@ body {
     height: 100vh;
     overflow: hidden;
     position: relative;
+    background-color: #121238;
 }
 
 header {
     height: 8vh;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +20,7 @@ main {
     height: calc(100vh - 8vh - 6vh);
     overflow: auto;
     .cards {
+        background-color: whitesmoke;
         box-shadow: 2px 2px 12px 0 #33337c, -2px -2px 2px 0px #3094b3;
         .cards_img {
             text-align: center;
@@ -31,6 +34,8 @@ main {
 #site_footer {
     height: 6vh;
     width: 100vw;
+    background-color: black;
+    color: whitesmoke;
     position: absolute;
     bottom: 0;
     left: 0;

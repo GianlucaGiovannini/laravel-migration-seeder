@@ -10270,10 +10270,12 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  background-color: #121238;
 }
 
 header {
   height: 8vh;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10285,6 +10287,7 @@ main {
   overflow: auto;
 }
 main .cards {
+  background-color: whitesmoke;
   box-shadow: 2px 2px 12px 0 #33337c, -2px -2px 2px 0px #3094b3;
 }
 main .cards .cards_img {
@@ -10297,6 +10300,8 @@ main .cards img {
 #site_footer {
   height: 6vh;
   width: 100vw;
+  background-color: black;
+  color: whitesmoke;
   position: absolute;
   bottom: 0;
   left: 0;
